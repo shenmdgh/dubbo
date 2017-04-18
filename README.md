@@ -4,7 +4,7 @@ IDEA上搭建dubbo服务的简单过程
 
 一 、安装zookeeper
 ---
-参考链接：<a href="http://hisen.me/20170224-Ubuntu-16-LTS-%E5%AE%89%E8%A3%85zookeeper%E5%B9%B6%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/" target="_blank">ubuntu apt-get安装</a>
+参考链接：<a href="http://hisen.me/20170224-Ubuntu-16-LTS-%E5%AE%89%E8%A3%85zookeeper%E5%B9%B6%E5%BC%80%E6%9C%BA%E5%90%AF%E5%8A%A8/" target="_blank">ubuntu apt-get安装zookeeper</a>
 
 二、Idea clone本项目
 ---
