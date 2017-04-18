@@ -17,6 +17,10 @@ package com.alibaba.dubbo.demo.provider;
 
 public class DemoProvider {
 
+	/**
+	 * 服务提供者demo，运行本方法即可
+	 * @param args
+	 */
 	public static void main(String[] args) {
         com.alibaba.dubbo.container.Main.main(args);
 	}
