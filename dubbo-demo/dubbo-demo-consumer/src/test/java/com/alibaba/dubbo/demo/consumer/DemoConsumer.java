@@ -16,7 +16,11 @@
 package com.alibaba.dubbo.demo.consumer;
 
 public class DemoConsumer {
-	
+
+	/**
+	 * 消费者demo,运行本方法即可
+	 * @param args
+	 */
 	public static void main(String[] args) {
 	    com.alibaba.dubbo.container.Main.main(args);
 	}
