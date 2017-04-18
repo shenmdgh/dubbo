@@ -24,8 +24,10 @@ IDEA上搭建dubbo服务的简单过程
 ---
 
 1. 修改dubbo-demo-consumer配置文件中的注册中心地址
-
+```
 /dubbo/dubbo-demo/dubbo-demo-consumer/src/test/resources/dubbo.properties
+```
+
 ```
 #dubbo.registry.address=multicast://224.5.6.7:1234
 #使用本地的zookeeper做注册中心
@@ -33,8 +35,10 @@ dubbo.registry.address=zookeeper://127.0.0.1:2181
 ```
 
 2. 修改ubbo-demo-provider配置文件中的注册中心地址
-
+```
 /dubbo/dubbo-demo/dubbo-demo-provider/src/test/resources/dubbo.properties
+```
+
 ```
 #dubbo.registry.address=multicast://224.5.6.7:1234
 #使用本地的zookeeper做注册中心
