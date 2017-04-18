@@ -17,16 +17,29 @@ IDEA上搭建dubbo服务的简单过程
 三、启动tomcat，即可访问dubbo管理后台
 ---
 默认账号：root
+
 默认密码：root
 
 四、启动服务提供者&消费者demo
 ---
 
 1. 修改dubbo-demo-consumer配置文件中的注册中心地址
+
 /dubbo/dubbo-demo/dubbo-demo-consumer/src/test/resources/dubbo.properties
+```
+#dubbo.registry.address=multicast://224.5.6.7:1234
+#使用本地的zookeeper做注册中心
+dubbo.registry.address=zookeeper://127.0.0.1:2181
+```
 
 2. 修改ubbo-demo-provider配置文件中的注册中心地址
+
 /dubbo/dubbo-demo/dubbo-demo-provider/src/test/resources/dubbo.properties
+```
+#dubbo.registry.address=multicast://224.5.6.7:1234
+#使用本地的zookeeper做注册中心
+dubbo.registry.address=zookeeper://127.0.0.1:2181
+```
 
 3. 分别启动dubbo-demo下ubbo-demo-provider、dubbo-demo-consumer下的测试方法
 
