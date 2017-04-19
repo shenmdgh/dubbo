@@ -5,6 +5,7 @@ IDEA上搭建dubbo服务的简单过程
 目前是最新的版本：2.5.4-SNAPSHOT
 
 本文档更新时间：2017年04月19日01:08:02
+<img src="http://wx3.sinaimg.cn/mw690/b2e389b6ly1ferrzk70zwj20nb0diadw.jpg" />
 
 一 、安装zookeeper
 ---
